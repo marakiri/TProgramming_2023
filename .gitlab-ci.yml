@@ -2,8 +2,7 @@ stages:
   - lint_saga
   - test_saga
   - lint_shop
-  - test_server
-  - test_client
+  - test_shop
 
 include:
   - local: /rpgsaga/.gitlab-ci.yml

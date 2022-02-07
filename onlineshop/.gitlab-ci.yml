@@ -20,7 +20,7 @@ test_server:
   image: node
   tags:
     - docker
-  stage: test_server
+  stage: test_shop
   script:
     - cd ./onlineshop/source/server/
     - npm ci
@@ -34,7 +34,7 @@ test_client:
   image: node
   tags:
     - docker
-  stage: test_client
+  stage: test_shop
   script:
     - cd ./onlineshop/source/client/
     - npm ci
